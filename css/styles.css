@@ -1,0 +1,22 @@
+.header{
+    border: dotted black 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.firstdiv{
+    border: dotted black 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.seconddiv{
+    border: dotted black 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.thirddiv{
+    border: dotted black 5px;
+    padding: 10px;
+}
