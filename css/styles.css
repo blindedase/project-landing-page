@@ -1,16 +1,101 @@
 *{
-    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f9faf8;
+    font-size: 18px;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-div{
-    border: 5px solid black;
-    padding: 5px;
-    margin: 5px;
+    background-color: cornflowerblue;
 }
 
-.navbar-container{
-    display: flex;
-    
+div{
+    border: 2px solid red;
+    padding: 2px;
+    margin: 2px;
 }
+
+.navbar{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .container-left .logo{
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    padding: 4px 32px;
+}
+
+.navbar .container-right ul{
+    list-style-type: none;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    gap: 8px;
+}
+
+.navbar .container-right ul li a{
+    text-decoration: none;
+    padding: 8px;
+}
+
+.first-layout{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.first-layout .first-container-left h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.second-layout{
+    text-align: center;
+    padding: 100px;
+}
+
+.second-layout-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+.second-layout-container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section css */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 16px;
+  }
+  
